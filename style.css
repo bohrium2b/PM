@@ -1,0 +1,91 @@
+p{
+  font-size: 20px;
+}
+.founderImg{
+  width:200px;
+  border-radius:50%;
+}
+.titleImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+.logoImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 52px;
+}
+.navBara{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #94f3ff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 705;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    transition: 0.5s;
+  }
+  
+  .active {
+    background-color: #ffffff;
+    color: #333;
+  }
+  .active:hover{
+    color: #ffffff;
+    transition: 0.5s;
+  }
+body{
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+fade-in{
+  opacity:0;
+  transition:opacity 3s;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main {
+  width: 400px;
+  height: 400px;
+  display: flex;
+}
+.foundDesc{
+  font-size:14px;
+  text-align:center;
+  color:#5a5858;
+}
